@@ -1,4 +1,4 @@
-# RTOS_workspace
+# FreeRTOS Workspace
 
 Hello! This is my FreeRTOS workspace for you to use or improve. 
 #Configuration
