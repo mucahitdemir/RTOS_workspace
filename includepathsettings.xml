@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="s,S">
+<includepath>C:\Users\mucah\Desktop\FreeRTOS\RTOS_workspace\common\ThirdParty\SEGGER\Config</includepath>
+<includepath>C:\Users\mucah\Desktop\FreeRTOS\RTOS_workspace\common\ThirdParty\SEGGER\SEGGER</includepath>
+
+</language>
+<language name="C Source File">
+<includepath>Core/Inc</includepath>
+<includepath>Drivers/STM32F4xx_HAL_Driver/Inc</includepath>
+<includepath>Drivers/STM32F4xx_HAL_Driver/Inc/Legacy</includepath>
+<includepath>Drivers/CMSIS/Device/ST/STM32F4xx/Include</includepath>
+<includepath>Drivers/CMSIS/Include</includepath>
+<includepath>C:\Users\mucah\Desktop\FreeRTOS\RTOS_workspace\common\ThirdParty\FreeRTOS\include</includepath>
+<includepath>C:\Users\mucah\Desktop\FreeRTOS\RTOS_workspace\common\ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F</includepath>
+<includepath>C:\Users\mucah\Desktop\FreeRTOS\RTOS_workspace\common\ThirdParty\SEGGER\Config</includepath>
+<includepath>C:\Users\mucah\Desktop\FreeRTOS\RTOS_workspace\common\ThirdParty\SEGGER\OS</includepath>
+<includepath>C:\Users\mucah\Desktop\FreeRTOS\RTOS_workspace\common\ThirdParty\SEGGER\SEGGER</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="s,S">
+
+</language>
+<language name="C Source File">
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+<macro>
+<name>USE_HAL_DRIVER</name><value/>
+</macro>
+<macro>
+<name>STM32F407xx</name><value/>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>

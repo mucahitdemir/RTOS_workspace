@@ -1,0 +1,14 @@
+main.c:71:6:send_deftask	16	static
+main.c:77:6:send_task2	48	static
+main.c:83:6:send_task3	64	static
+main.c:92:6:send_task4	56	static
+main.c:103:5:main	128	static
+main.c:187:6:SystemClock_Config	88	static
+main.c:232:13:MX_USART2_UART_Init	8	static
+main.c:265:13:MX_GPIO_Init	56	static
+main.c:409:6:StartDefaultTask	16	static
+main.c:430:6:StartTask02	16	static
+main.c:451:6:StartTask03	16	static
+main.c:464:6:StartTask04	16	static
+main.c:486:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:503:6:Error_Handler	4	static,ignoring_inline_asm
