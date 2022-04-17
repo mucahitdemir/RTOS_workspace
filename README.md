@@ -17,8 +17,8 @@ configTOTAL_HEAP_SIZE: This must be enough space to allocate all tasks including
 | Example -8    | Queue Timers Task  |
 | Example -9    | Mutual Exclusion   |
 | Example -10   | Queue Management   |
-| Example -9    | Will be added...   |
-| Example -9    | Will be added...   |
+| Example -11   | Will be added...   |
+| Example -12   | Will be added...   |
 
 
 
