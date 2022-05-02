@@ -22,6 +22,3 @@ configTOTAL_HEAP_SIZE: This must be enough space to allocate all tasks including
 
 
 
-Best wishes,
-Mücahit
-Junior Embedded Software Engineer
