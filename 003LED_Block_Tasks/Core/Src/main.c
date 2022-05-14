@@ -90,7 +90,7 @@ int main(void)
 
     DWT_CTRL |= (1 << 0);
 
-    SEGGER_SYSVIEW_Conf();
+    SEGGER_SYSVIEW_Conf(); /*A program to examine switching and task handling */
 
     SEGGER_SYSVIEW_Start();
 
