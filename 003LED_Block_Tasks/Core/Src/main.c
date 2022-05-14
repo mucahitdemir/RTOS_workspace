@@ -24,10 +24,8 @@ static void led_orange_handler(void* parameters);
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
+
 #define DWT_CTRL (*(volatile uint32_t*)0xE0001000)
-
-
-
 
 /* USER CODE END PM */
 
@@ -56,14 +54,12 @@ static void MX_GPIO_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+	
 	TaskHandle_t task1_handle;
-
 	TaskHandle_t task2_handle;
-
 	TaskHandle_t task3_handle;
-
-
 	BaseType_t status;
+	
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -76,7 +72,7 @@ int main(void)
   /* USER CODE END Init */
 
   /* Configure the system clock */
-  SystemClock_Config();
+  SystemClock_Config(); /* System configuration and clock settings*/
 
   /* USER CODE BEGIN SysInit */
 
@@ -94,6 +90,7 @@ int main(void)
 
     SEGGER_SYSVIEW_Start();
 
+	
     status = xTaskCreate(led_green_handler, "LED_Green_Task", 200, NULL, 2, &task1_handle);
 
     configASSERT(status == pdPASS);
