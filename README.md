@@ -1,7 +1,8 @@
 # FreeRTOS Workspace
 
 Hello! This is my FreeRTOS workspace for you to use or improve. 
-#Configuration
+
+## Configuration
 The configuration of the kernel is set in FreeRTOSConfig.h
 configTOTAL_HEAP_SIZE: This must be enough space to allocate all tasks including the idle task. If the kernel does’t start it could be that the heap is too small.
 

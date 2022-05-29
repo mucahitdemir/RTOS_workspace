@@ -1,21 +1,4 @@
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2022 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
-  *
-  ******************************************************************************
-  */
+
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -41,10 +24,8 @@ static void led_orange_handler(void* parameters);
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
+
 #define DWT_CTRL (*(volatile uint32_t*)0xE0001000)
-
-
-
 
 /* USER CODE END PM */
 
@@ -73,14 +54,12 @@ static void MX_GPIO_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+	
 	TaskHandle_t task1_handle;
-
 	TaskHandle_t task2_handle;
-
 	TaskHandle_t task3_handle;
-
-
 	BaseType_t status;
+	
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -93,7 +72,7 @@ int main(void)
   /* USER CODE END Init */
 
   /* Configure the system clock */
-  SystemClock_Config();
+  SystemClock_Config(); /* System configuration and clock settings*/
 
   /* USER CODE BEGIN SysInit */
 
@@ -107,10 +86,11 @@ int main(void)
 
     DWT_CTRL |= (1 << 0);
 
-    SEGGER_SYSVIEW_Conf();
+    SEGGER_SYSVIEW_Conf(); /*A program to examine switching and task handling */
 
     SEGGER_SYSVIEW_Start();
 
+	
     status = xTaskCreate(led_green_handler, "LED_Green_Task", 200, NULL, 2, &task1_handle);
 
     configASSERT(status == pdPASS);
