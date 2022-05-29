@@ -1,7 +1,7 @@
 # FreeRTOS Workspace
 Hello! This is my FreeRTOS workspace for you to use or improve.
-**
-Real-time Operating System (RTOS)** is an operating system intended to serve real time application that process data as it comes in, mostly without buffer delay.
+
+**Real-time Operating System (RTOS)** is an operating system intended to serve real time application that process data as it comes in, mostly without buffer delay.
 It offers priority-based scheduling, which allows you to separate analytical processing from non-critical processing.
 
 **Important components of RTOS system are**: 
