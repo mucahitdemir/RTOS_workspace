@@ -53,6 +53,7 @@ The biggest drawback of RTOS is that the system only concentrates on a few tasks
 
 
 ### Resources
+Link: https://drive.google.com/file/d/17fOjfd6AAOkZf2FAZU5G6fVhqYxifY-q/view?usp=sharing
 
 
 ## Configuration
