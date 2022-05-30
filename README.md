@@ -62,7 +62,7 @@ configTOTAL_HEAP_SIZE: This must be enough space to allocate all tasks including
 
 | Examples      | Description           |
 | ------------- | ----------------------|
-| Example -1    | Creating tasks        |
+| Example -1    | Creating tasks        |   There is a problem about 001Task and 002LEDTasks, exist a github submodule, I will fix ASAP
 | Example -2    | LED Tasks             |
 | Example -3    | LED Block Task        |
 | Example -4    | LED Periodic Task     |
